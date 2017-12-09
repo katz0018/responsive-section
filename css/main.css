@@ -111,4 +111,8 @@ section p {
     font-size: 130%;
     line-height: 1.5;
   }
+
+  .wrapper {
+    max-width: 45em;
+  }
 }
