@@ -28,7 +28,6 @@ section {
 }
 
 .wrapper {
-  padding: 1rem;
   margin: 0 auto;
   max-width: 45em;
   display: block;
@@ -42,6 +41,10 @@ section {
 .section-icon {
   width: 50%;
   float: right;
+}
+
+.section-body {
+  padding: 1rem;
 }
 
 section h2 {
@@ -67,8 +70,8 @@ section p {
     width: 45%;
   }
 
-  .section-body {
-    padding: 1rem;
+  .wrapper {
+    padding-left: 1rem;
   }
 }
 
