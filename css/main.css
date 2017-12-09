@@ -31,12 +31,12 @@ section {
 }
 
 .section-letter {
-  width: 45%;
+  width: 50%;
   float: left;
 }
 
 .section-icon {
-  width: 45%;
+  width: 50%;
   float: right;
 }
 
@@ -50,16 +50,55 @@ section p {
 
 @media only screen and (min-width: 25em) {
 
+  html {
+    font-size: 100%;
+    line-height: 1.3;
+  }
+
+  .section-letter {
+    width: 45%;
+  }
+
+  .section-icon {
+    width: 45%;
+  }
 }
 
 @media only screen and (min-width: 38em) {
+
+  html{
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .section-letter {
+    width: 15%;
+  }
+
+  .section-icon {
+    width: 15%;
+  }
+
+  .section-body {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
 
 }
 
 @media only screen and (min-width: 60em) {
 
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
 }
 
 @media only screen and (min-width: 90em) {
 
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
 }
