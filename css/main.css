@@ -17,3 +17,33 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+section {
+  background-color: #e5c30a;
+}
+
+.wrapper {
+  padding: 1rem;
+}
+
+.section-letter {
+  width: 45%;
+  float: left;
+}
+
+.section-icon {
+  width: 45%;
+  float: right;
+}
+
+section h2 {
+  margin: 0;
+}
+
+section p {
+  margin: 0;
+}
