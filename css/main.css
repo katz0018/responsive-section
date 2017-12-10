@@ -105,7 +105,7 @@ section p {
   }
 
   .wrapper {
-    padding: 0;
+    padding: 1.3rem;
   }
 
   .section-letter {
@@ -118,6 +118,10 @@ section p {
 
   .img-flex {
     width: 100%;
+  }
+
+  .section-body {
+    width: 60%;
   }
 }
 
