@@ -57,6 +57,7 @@ section p {
 
 .img-flex {
   width: 100%;
+  display: block;
 }
 
 @media only screen and (min-width: 25em) {
